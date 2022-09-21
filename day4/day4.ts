@@ -116,7 +116,7 @@ function parseBingoCards(input: string[]): BingoCard[] {
 }
 
 const data: string[] = fs
-  .readFileSync("C:/Users/Pandelis/Documents/advent of code/day4input.txt", {
+  .readFileSync("./day4input.txt", {
     encoding: "utf8",
   })
   .split("\n");

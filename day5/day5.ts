@@ -128,7 +128,7 @@ function countIntersections(lines: Line[]): number {
 }
 
 const data: string[] = fs
-  .readFileSync("C:/Users/Pandelis/Documents/advent of code/day5input.txt", {
+  .readFileSync("./day5input.txt", {
     encoding: "utf8",
   })
   .split("\n");

@@ -1,6 +1,7 @@
 {
   "name": "aoc2021",
   "dependencies": {
-    "@types/node": "^12.20.38"
+    "@types/node": "^12.20.38",
+    "ts-node": "^10.9.1"
   }
 }
